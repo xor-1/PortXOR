@@ -1,0 +1,45 @@
+# .NET build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+
+# Reports directory (generated files)
+reports/*.txt
+reports/*.json
+reports/*.html
+!reports/.gitkeep
+
+# Config files with sensitive data
+configs/*.json
+!configs/config.example.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Temporary files
+*.tmp
+*.temp
+

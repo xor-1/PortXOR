@@ -1,0 +1,19 @@
+{
+  "Scanner": {
+    "DefaultTimeout": 1000,
+    "MaxConcurrentScans": 100,
+    "BannerTimeout": 2000
+  },
+  "BlueXOR": {
+    "DetectionThreshold": 10,
+    "TimeWindow": 60,
+    "AlertEnabled": true
+  },
+  "Reporting": {
+    "OutputDirectory": "reports",
+    "Format": "txt",
+    "IncludeBanners": true,
+    "IncludeOSDetection": true
+  }
+}
+
